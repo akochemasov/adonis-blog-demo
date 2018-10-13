@@ -1,5 +1,3 @@
-'use strict'
-
 const Factory = use('Factory')
 const Post = use('App/Models/Post')
 const PostController = use('App/Controllers/Http/PostController')
