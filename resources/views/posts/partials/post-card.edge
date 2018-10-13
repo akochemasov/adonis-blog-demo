@@ -9,7 +9,7 @@
       ref: http://adonisjs.com/docs/4.0/views#_loggedin
       ref: http://adonisjs.com/docs/4.0/authentication#_loggedin
       --}}
-    @loggedIn
+    
       <div class="flex">
         <a class="flex shadow items-center justify-center text-grey-dark rounded-full h-10 w-10 bg-info-light mr-4" href="/posts/{{ post.id }}/edit">
           @!component('icon.edit', { size: '25px' })
@@ -18,7 +18,7 @@
           @!component('icon.trash', { size: '25px' })
         </a>
       </div>
-    @endloggedIn
+    
   </header>
 
   <p>
