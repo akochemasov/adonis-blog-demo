@@ -16,5 +16,5 @@ test('we can delete a post', async ({ assert, client }) => {
 
   //проверяем, что нет поста в базе
   const post2 = await Post.find(post.id)
-  assert.equal(post2, null);
+  assert.isNull(post2)
 })
